@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
 }
 
 header {
@@ -9,8 +9,8 @@ header {
 }
 
 header img {
-    width: 175px;
-    height: 175px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -26,11 +26,26 @@ section {
     margin: 10px;
     display: inline-block; 
     text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+    text-underline-offset: auto;
     line-height: 200px; 
 }
 
+
 h1, h2 {
     color: #333;
+}
+
+#project1 {
+    background-image: url(https://t4.ftcdn.net/jpg/02/44/35/67/360_F_244356708_9sarXrMLZEEMAI2KKt3on8x1mCgfQKrQ.jpg);
+}
+
+#project2 {
+    background-image: url(https://media.istockphoto.com/id/468619472/photo/green-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=z-6SKc091G5W4Xh9dYcxvDVPljX2Bh7RDHngSfj6Zv4=);
+}
+
+#project3 {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/021/438/780/small_2x/light-blue-gradient-background-copy-space-graphic-animation-video.jpg);
 }
 
 #bio, #work {
