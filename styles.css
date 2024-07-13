@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     background-image: url(https://images.unsplash.com/photo-1612198619563-a3a31fd47e6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3Vuc2V0JTIwY2xvdWR8ZW58MHx8MHx8fDA%3D);
     background-size: cover;
 }
@@ -21,32 +21,68 @@ section {
 }
 
 .project {
-    width: 200px; 
-    height: 200px;
+    width: 225px; 
+    height: 100px;
     border: 1px solid #ccc;
     margin: 10px;
     display: inline-block; 
     text-align: center;
     text-shadow: #FC0 1px 0 10px;
-    text-underline-offset: auto;
-    line-height: 200px; 
+    line-height: 100px; 
+    font-size: medium;
+    background-color:cornflowerblue;
 }
 
+.project a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.project a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.socials a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.socials a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.socials a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
 h1, h2 {
     color: #333;
-}
-
-#project1 {
-    background-image: url(https://t4.ftcdn.net/jpg/02/44/35/67/360_F_244356708_9sarXrMLZEEMAI2KKt3on8x1mCgfQKrQ.jpg);
-}
-
-#project2 {
-    background-image: url(https://media.istockphoto.com/id/468619472/photo/green-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=z-6SKc091G5W4Xh9dYcxvDVPljX2Bh7RDHngSfj6Zv4=);
-}
-
-#project3 {
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/021/438/780/small_2x/light-blue-gradient-background-copy-space-graphic-animation-video.jpg);
 }
 
 #bio, #work {
@@ -57,4 +93,29 @@ h1, h2 {
 footer {
     text-align: center;
     padding: 10px;
+}
+
+.color {
+    color: var(--clr-primary-5);
+  }
+
+.btn-hero {
+font-family: var(--ff-primary);
+text-transform: uppercase;
+color: black;
+letter-spacing: var(--spacing);
+display: block;
+margin: auto;
+font-weight: 700;
+transition: var(--transition);
+border: 2px solid black;
+cursor: pointer;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+border-radius: var(--radius);
+font-size: 1rem;
+padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+color: white;
+background-color: black;
 }
