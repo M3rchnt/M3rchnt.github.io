@@ -33,50 +33,26 @@ section {
     background-color:cornflowerblue;
 }
 
-.project a:link {
-    color: green;
+a:link {
+    color: #c00;
     background-color: transparent;
     text-decoration: none;
 }
 
-.project a:visited {
-    color: white;
+a:visited {
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
 }
 
-.project a:hover {
-    color: red;
+a:active {
+    color: #ccc;
     background-color: transparent;
     text-decoration: underline;
 }
 
-.project a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.socials a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.socials a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.socials a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.socials a:active {
-    color: yellow;
+a:hover {
+    color: #00c;
     background-color: transparent;
     text-decoration: underline;
 }
