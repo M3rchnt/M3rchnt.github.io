@@ -1,33 +1,209 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Joshua Llorin - Developer Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Llorin | Developer Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="https://github.com/M3rchnt/M3rchnt.github.io/blob/main/JoshPic.jpg?raw=true">
-        <h1>Joshua Llorin</h1>
-        <p>Aspiring Junior Software Developer</p>
-    </header>
-    <section id="bio">
-        <h2>About Me</h2>
-        <p>BSc Computer Science with User Experience Design Minor @ Wilfrid Laurier University</p>
-    </section>
-    <section id="work">
-        <h2>My Projects</h2>
-        <div>
-            <div class="project" id="project1"><a href="https://github.com/M3rchnt/Python-Java-Banking-System">Bank Account Manager</a>
+    <header class="hero section-screen">
+        <nav class="topbar">
+            <div class="brand">Joshua Llorin</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-            <div class="project" id="project2"><a href="https://github.com/M3rchnt/Student-Database-Marking-Application">Student Database Marking</a>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-copy">
+                <p class="eyebrow">Software Developer</p>
+                <h1>Building thoughtful software for real-world problems.</h1>
+                <p class="intro">
+                    I’m Joshua Llorin, a Computer Science graduate with a User Experience Design minor
+                    from Wilfrid Laurier University. My work blends software engineering, product thinking,
+                    and interface design to create tools that are usable, reliable, and impactful.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="../Dev Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+                    <a class="button secondary" href="https://github.com/M3rchnt" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
             </div>
-            <div class="project" id="project3"><a href="https://github.com/M3rchnt/CSV-WeatherData-Parser">CSV Weather Data Parser</a>
+
+            <div class="hero-visual">
+                <div class="portrait-frame">
+                    <img src="https://github.com/M3rchnt/M3rchnt.github.io/blob/main/JoshPic.jpg?raw=true" alt="Joshua Llorin portrait">
+                </div>
             </div>
         </div>
-    </section>
-    <button class="btn btn-hero" id="btn">Click Me</button>
-    <footer class="socials">
-        <p>Contacts: joshuamiguel.llorin@gmail.com | llor9394@mylaurier.ca | 905-805-5849 | <a href="https://www.linkedin.com/in/joshua-llorin-574098240/">LinkedIn</a> | <a href="https://github.com/M3rchnt">Github</a> </p>
+    </header>
+
+    <main>
+        <section id="about" class="section-screen panel about-panel">
+            <div class="section-header">
+                <p class="eyebrow">About</p>
+                <h2>Developer with a design mindset.</h2>
+            </div>
+            <div class="about-grid">
+                <p>
+                    My academic background blends Computer Science with User Experience Design, which means
+                    I care deeply about both system performance and user experience. I enjoy turning complex
+                    ideas into polished digital experiences that feel intuitive and work reliably in practice.
+                </p>
+                <div class="stat-block">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Years of software development experience</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-screen panel">
+            <div class="section-header">
+                <p class="eyebrow">Skills</p>
+                <h2>Technical strengths.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card" id="skill1">
+                    <div class="skill-icon-row">
+                        <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C# logo" />
+                        <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/python/3776AB" alt="Python logo" />
+                    </div>
+                    <h3>Languages</h3>
+                    <p>C#, Java, Python, JavaScript, TypeScript, SQL, HTML, CSS</p>
+                </div>
+                <div class="skill-card" id="skill2">
+                    <div class="skill-icon-row">
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/dotnet/512BD4" alt=".NET logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/react/61DAFB" alt="React logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/angular/DD0031" alt="Angular logo" />
+                    </div>
+                    <h3>Frameworks</h3>
+                    <p>.NET, React, Angular, Flask, REST APIs</p>
+                </div>
+                <div class="skill-card" id="skill3">
+                    <div class="skill-icon-row">
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/supabase/3ECF8E" alt="Supabase logo" />
+                    </div>
+                    <h3>Databases</h3>
+                    <p>MongoDB, MySQL, SQLite, SQL Server, Supabase</p>
+                </div>
+                <div class="skill-card" id="skill4">
+                    <div class="skill-icon-row">
+                        <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker logo" />
+                        <img class="skill-icon" src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" />
+                    </div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Docker, Nginx, PM2, SSH, Git, GitHub, GitHub Actions, Azure DevOps</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-screen panel">
+            <div class="section-header">
+                <p class="eyebrow">Experience</p>
+                <h2>Professional and academic background.</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2026 - Current</div>
+                    <div class="timeline-content">
+                        <h3>Setter Capital</h3>
+                        <p><strong>Full Stack Developer</strong> | Toronto, Ontario</p>
+                        <ul class="bullet-list">
+                            <li>Maintained deployed application environments through SSH, updating Nginx reverse proxy configurations and PM2 process management to support application routing and uptime across AWS-hosted containers.</li>
+                            <li>Designed and developed UI for interactive news and predictive market experiences.</li>
+                            <li>Used Claude and scheduled automation to gather data and draft social media content for the web application.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2024 - Apr 2026</div>
+                    <div class="timeline-content">
+                        <h3>RLDatix</h3>
+                        <p><strong>Junior Software Developer (Co-op)</strong> | Toronto, Ontario</p>
+                        <ul class="bullet-list">
+                            <li>Developed a C# and MongoDB-based internal tool enabling the taxonomy team to dynamically manage application icons and synchronize updates across end-user environments.</li>
+                            <li>Maintained CI/CD workflows using GitHub Actions to automate deployment of Dockerized microservices to AWS ECR.</li>
+                            <li>Used React to optimize a backend testing tool by implementing dynamic polling and converting the service from class-based to functional.</li>
+                            <li>Used specification-driven AI development with Speckit to accelerate feature delivery and deployment.</li>
+                            <li>Developed automated unit and end-to-end tests using xUnit and Playwright to improve application reliability.</li>
+                            <li>Built and maintained RESTful APIs supporting communication between application services.</li>
+                            <li>Worked in Agile teams and participated in ceremonies while using Azure DevOps for feature management and version control.</li>
+                            <li>Handled 30+ frontend and backend bug tickets related to configuration, network, and code issues.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2026</div>
+                    <div class="timeline-content">
+                        <h3>Wilfrid Laurier University</h3>
+                        <p><strong>BSc in Computer Science</strong> with Minor in User Experience Design, Coop Program</p>
+                        <p>GPA: 10.73/12.0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-screen panel">
+            <div class="section-header">
+                <p class="eyebrow">Projects</p>
+                <h2>Selected project experience.</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card project-astris">
+                    <div class="project-meta">
+                        <span>Java, SQL, GitHub</span>
+                    </div>
+                    <h3>Project Astris</h3>
+                    <ul class="bullet-list compact">
+                        <li>Advised and analyzed server gameplay quality as a community liaison for a Minecraft server with 600+ members and $100+ in revenue.</li>
+                        <li>Conducted code reviews for plugins and provided implementation guidance for new and existing systems.</li>
+                        <li>Created a custom quests plugin using an internal server cache synchronized with a SQL database.</li>
+                        <li>Led a cross-functional team of 8+ developers and designers to coordinate project development and feature implementation.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card project-casehacks">
+                    <div class="project-meta">
+                        <span>React, Python</span>
+                    </div>
+                    <h3>CaseHacks</h3>
+                    <ul class="bullet-list compact">
+                        <li>Developed a React frontend and Flask backend for a hackathon management dashboard.</li>
+                        <li>Supported participant registration and workshop management workflows.</li>
+                        <li>Integrated Supabase for persistent data storage and implemented JWT auth with Row Level Security.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer section-screen">
+        <p>Let’s connect.</p>
+        <div class="contact-links">
+            <a href="mailto:joshuamiguel.llorin@gmail.com">joshuamiguel.llorin@gmail.com</a>
+            <span>|</span>
+            <a href="tel:9058055849">905-805-5849</a>
+            <span>|</span>
+            <a href="https://www.linkedin.com/in/joshua-llorin-574098240/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span>|</span>
+            <a href="https://github.com/M3rchnt" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
     </footer>
-    <script src="app.js"></script>
+
 </body>
 </html>
+
